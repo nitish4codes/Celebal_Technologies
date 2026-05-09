@@ -1,4 +1,6 @@
 # Celebal Technologies - Data Engineering Internship
+## Author 
+**Name:** Nitish Bhardwaj
 
 ## Week 1: Basic Data Exploration and Cleaning
 This repository contains the first week's assignment focusing on utilizing Pandas for handling real-world ecommerce data.
