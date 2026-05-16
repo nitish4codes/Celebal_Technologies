@@ -2,21 +2,55 @@
 ### Celebal Technologies Internship — Week 2 Assignment Submission
 
 **Developer:** Nitish Bhardwaj  
-**Tech Stack:** MySQL, VS Code, Git Bash  
+**Tech Stack:** MySQL Workbench, VS Code, Git Bash  
 **LMS Task:** SQL-based data analysis using filtering, aggregation, and basic business queries  
 
 ---
 
 ### 📌 Project Overview
-This project is my implementation of a relational e-commerce database for **ShopEase**. I built a 4-table relational schema (`customers`, `products`, `orders`, and `order_items`) from scratch based on the assignment PDF. 
+This project is my implementation of a relational e-commerce database framework for **ShopEase**. I built a 4-table relational schema (`customers`, `products`, `orders`, and `order_items`) completely from scratch based on our assignment documentation. 
 
-The goal was to load the sample datasets and write SQL scripts to handle everything from basic filtering to advanced aggregations and safe transactions. I have broken down the work into 4 sequential `.sql` scripts to keep the workspace organized and readable.
+To keep the repository clean and production-ready, the executable code is split across 4 dedicated SQL scripts in this repo, while this README acts as the central documentation for insights, theoretical answers, and visual query results.
+
+---
+
+## 📈 Executive Business Insights
+
+1. **Primary Revenue Drivers:** The **Electronics** category stands out as the core financial engine for ShopEase. It commands the highest unit prices and generates the most substantial share of transaction value across the platform.
+2. **Order Pipeline Health:** Based on our operational logs, the delivery funnel is highly effective. A strong conversion ratio shows active orders moving cleanly from `Pending` or `Shipped` statuses directly into a finalized `Delivered` state, minimizing backlog.
+3. **Discount Trends:** Specific high-volume items rely heavily on promotional discount percentage models to push unit quantities, whereas premium products maintain static margins.
+
+---
+
+## 💻 Code Scripts & Query Results Proof
+
+### 1. Database Schema & Data Loading (Code in `1_schema_and_data.sql`)
+I generated the 4 tables with strict primary keys, foreign keys, and check constraints before executing the dataset inserts.
+* **Execution Proof:** ![Schema Setup Proof](proof/1_schema_setup.png)
+
+---
+
+### 2. Core Selection & Filtering (Code in `2_basics_and_filtering.sql`)
+Queries written to handle basic data retrieval, filtering active deliveries, isolating high-value items, and optimizing search bounds to be index-friendly.
+* **Execution Proof:** ![Filtering Results Proof](proof/2_filtering_results.png)
+
+---
+
+### 3. Data Aggregations & Relational Joins (Code in `3_aggregations_and_joins.sql`)
+Queries tracking volume distribution summaries using `GROUP BY` and executing complex multi-table inner/left join maps.
+* **Execution Proof:** ![Aggregations and Joins Proof](proof/3_aggregations_joins.png)
+
+---
+
+### 4. Advanced CASE Logic & Transactions (Code in `4_advanced_concepts.sql`)
+Implementing row-level conditional aggregates using `CASE` and a secure, atomic transaction block ensuring ACID compliance.
+* **Execution Proof:** ![Transactions Proof](proof/4_transactions_case.png)
 
 ---
 
 
 
-## 📘 Comprehensive Conceptual Assessment Answers
+##  Comprehensive Conceptual Assessment Answers
 
 ### Q4. Primary Key Rule Architecture Mechanics
 * **Identified Primary Keys:** `customers(customer_id)`, `products(product_id)`, `orders(order_id)`, and `order_items(item_id)`.
@@ -47,7 +81,7 @@ The goal was to load the sample datasets and write SQL scripts to handle everyth
 * **Isolation:** Ensures that concurrently running transactions remain completely isolated from one another and cannot view intermediate, uncommitted modifications. (Example: If two transfers hit an account at the same millisecond, the database serializes them so they don't overwrite each other's calculations.)
 * **Durability:** Guarantees that once a transaction commits successfully, its modifications are permanently written to non-volatile disk storage. The data will survive even if a sudden power failure or operating system crash occurs immediately after.
 
-### 📈 Core Business Insights
+###  Core Business Insights
 
 * **1. Revenue Drivers:The Electronics division serves as the core financial engine for ShopEase, carrying the highest unit prices and driving substantial transaction value.
 * **2.Order Volume Dynamics:**Operational logs indicate a steady transaction stream, with a healthy conversion of active orders progressing cleanly to a Delivered status.
