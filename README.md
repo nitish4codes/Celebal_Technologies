@@ -44,7 +44,7 @@ Queries tracking volume distribution summaries using `GROUP BY` and executing co
 
 ### 4. Advanced CASE Logic & Transactions (Code in `4_advanced_concepts.sql`)
 Implementing row-level conditional aggregates using `CASE` and a secure, atomic transaction block ensuring ACID compliance.
-* **Execution Proof:** ![Transactions Proof](proof_of_Query_results/4_transactions_case.png)
+* **Execution Proof:** ![Transactions Proof](proof_of_Query_results/4_advanced_concepts.sql)
 
 ---
 
