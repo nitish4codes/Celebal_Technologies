@@ -83,5 +83,5 @@ Implementing row-level conditional aggregates using `CASE` and a secure, atomic 
 
 ###  Core Business Insights
 
-* **1. Revenue Drivers:**The Electronics division serves as the core financial engine for ShopEase, carrying the highest unit prices and driving substantial transaction value.
-* **2.Order Volume Dynamics:**Operational logs indicate a steady transaction stream, with a healthy conversion of active orders progressing cleanly to a Delivered status.
+* **Revenue Drivers:**The Electronics division serves as the core financial engine for ShopEase, carrying the highest unit prices and driving substantial transaction value.
+* **Order Volume Dynamics:**Operational logs indicate a steady transaction stream, with a healthy conversion of active orders progressing cleanly to a Delivered status.
