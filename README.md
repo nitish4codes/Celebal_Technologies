@@ -1,8 +1,20 @@
-# ShopEase Analytics & Database Engineering Portfolio - Week 2 Task
+# ShopEase E-Commerce Sales Database Analysis
+### Celebal Technologies Internship — Week 2 Assignment Submission
 
-This workspace maps the relational database schema and analytical engine built to evaluate customer profiles, transaction pipelines, and operational constraints for ShopEase.
+**Developer:** Nitish Bhardwaj  
+**Tech Stack:** MySQL, VS Code, Git Bash  
+**LMS Task:** SQL-based data analysis using filtering, aggregation, and basic business queries  
 
 ---
+
+### 📌 Project Overview
+This project is my implementation of a relational e-commerce database for **ShopEase**. I built a 4-table relational schema (`customers`, `products`, `orders`, and `order_items`) from scratch based on the assignment PDF. 
+
+The goal was to load the sample datasets and write SQL scripts to handle everything from basic filtering to advanced aggregations and safe transactions. I have broken down the work into 4 sequential `.sql` scripts to keep the workspace organized and readable.
+
+---
+
+
 
 ## 📘 Comprehensive Conceptual Assessment Answers
 
