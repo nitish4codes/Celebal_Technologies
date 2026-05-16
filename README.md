@@ -26,25 +26,25 @@ To keep the repository clean and production-ready, the executable code is split 
 
 ### 1. Database Schema & Data Loading (Code in `1_schema_and_data.sql`)
 I generated the 4 tables with strict primary keys, foreign keys, and check constraints before executing the dataset inserts.
-* **Execution Proof:** ![Schema Setup Proof](proof/1_schema_setup.png)
+* **Execution Proof:** ![Schema Setup Proof](proof_of_Query_results/1_schema_setup.png)
 
 ---
 
 ### 2. Core Selection & Filtering (Code in `2_basics_and_filtering.sql`)
 Queries written to handle basic data retrieval, filtering active deliveries, isolating high-value items, and optimizing search bounds to be index-friendly.
-* **Execution Proof:** ![Filtering Results Proof](proof/2_filtering_results.png)
+* **Execution Proof:** ![Filtering Results Proof](proof_of_Query_results/2_filtering_results.png)
 
 ---
 
 ### 3. Data Aggregations & Relational Joins (Code in `3_aggregations_and_joins.sql`)
 Queries tracking volume distribution summaries using `GROUP BY` and executing complex multi-table inner/left join maps.
-* **Execution Proof:** ![Aggregations and Joins Proof](proof/3_aggregations_joins.png)
+* **Execution Proof:** ![Aggregations and Joins Proof](proof_of_Query_results/3_aggregations_joins.png)
 
 ---
 
 ### 4. Advanced CASE Logic & Transactions (Code in `4_advanced_concepts.sql`)
 Implementing row-level conditional aggregates using `CASE` and a secure, atomic transaction block ensuring ACID compliance.
-* **Execution Proof:** ![Transactions Proof](proof/4_transactions_case.png)
+* **Execution Proof:** ![Transactions Proof](proof_of_Query_results/4_transactions_case.png)
 
 ---
 
