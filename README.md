@@ -6,6 +6,7 @@ This is my central portfolio repository for the 8-week online internship program
 * **Name:** Nitish Bhardwaj
 * **Domain:** Data Engineering
 * **Duration:** 8 Weeks (Assignments updated weekly)
+* **University:** Amity University, Noida 
 ---
 ## Note for Mentors
 * This single repository link will stay the same for the entire duration of the internship.
