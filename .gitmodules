@@ -1,9 +1,9 @@
 [submodule "Celebal-Data-Engineering-Week-1"]
 	path = Celebal-Data-Engineering-Week-1
 	url = https://github.com/nitish4codes/Celebal-Data-Engineering-Week-1
-[submodule "Celebal-Data-Engineering-Week-2"]
-	path = Celebal-Data-Engineering-Week-2
-	url = https://github.com/nitish4codes/Celebal_Sales_Analysis_Week-2
 [submodule "Celebal-Data-Engineering-Week-3"]
 	path = Celebal-Data-Engineering-Week-3
 	url = https://github.com/nitish4codes/Celebal-Data-Engineering-Week-3
+[submodule "Celebal_Sales_Analysis_Week2"]
+	path = Celebal_Sales_Analysis_Week2
+	url = https://github.com/nitish4codes/Celebal_Sales_Analysis_Week2
