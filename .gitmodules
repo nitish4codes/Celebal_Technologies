@@ -7,3 +7,7 @@
 [submodule "Celebal_Sales_Analysis_Week2"]
 	path = Celebal-Data-Engineering-Week-2
 	url = https://github.com/nitish4codes/Celebal_Sales_Analysis_Week2
+[submodule "Celebal-Data-Engineering-Week-4"]
+    path = Celebal-Data-Engineering-Week-4
+    url = https://github.com/nitish4codes/Celebal-Data-Engineering-Week-4
+
