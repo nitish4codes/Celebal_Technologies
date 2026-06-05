@@ -13,3 +13,6 @@
 [submodule "Celebal-Data-Engineering-Week-5"]
     path = Celebal-Data-Engineering-Week-5
     url = https://github.com/nitish4codes/Celebal-Data-Engineering-Week-5
+[submodule "Celebal-Data-Engineeing-Week-5"]
+	path = Celebal-Data-Engineeing-Week-5
+	url = https://github.com/nitish4codes/Celebal-Data-Engineering-Week-5.git
