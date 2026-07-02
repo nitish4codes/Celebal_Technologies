@@ -27,3 +27,7 @@
 [submodule "Celebal-Data-Engineering-Week-8"]
 	path = Celebal-Data-Engineering-Week-8
 	url = https://github.com/nitish4codes/Celebal-Data-Engineering-Week-8
+
+[submodule "Customer-Sentiment-Analysis"]
+	path = Final Project/Customer-Sentiment-Analysis
+	url = https://github.com/nitish4codes/Customer-Sentiment-Analysis
